@@ -11,8 +11,22 @@ config_version=5
 [application]
 
 config/name="snake_game"
+run/main_scene="uid://dxmalnuxfi7d2"
 config/features=PackedStringArray("4.4", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="res://gameplay/sprites/icon.svg"
+
+[autoload]
+
+Global="*res://autoloads/global.gd"
+
+[display]
+
+window/size/viewport_width=800
+window/size/viewport_height=448
+
+[global_group]
+
+food=""
 
 [rendering]
 
