@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="snake_game"
-run/main_scene="uid://dxmalnuxfi7d2"
+run/main_scene="uid://r1vofg1bc84y"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://gameplay/sprites/icon.svg"
 
